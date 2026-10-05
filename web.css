@@ -1,0 +1,165 @@
+* {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #FFDCDC;
+            color: white;
+            margin: 0;
+            padding: 35px 20px;
+        }
+
+        /* KOTAK UTAMA */
+        .container {
+            width: 100%;
+            max-width: 500px;
+            margin: auto;
+
+            background: #D8A2A2;
+
+            padding: 35px;
+
+            border-radius: 20px;
+
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+        }
+
+        /* FOTO */
+        .profile {
+            display: block;
+
+            width: 180px;
+            height: 220px;
+
+            object-fit: cover;
+
+            border-radius: 16px;
+
+            border: 4px solid #ffffff;
+
+            margin: 0 auto 22px;
+        }
+
+        /* NAMA */
+       .header-chat {
+        text-align: center;
+        font-size: 15px;
+        font-style: italic;
+       }
+        /* JUDUL */
+        h1 {
+            text-align: center;
+
+            font-size: 29px;
+
+            margin: 0 0 25px;
+
+            letter-spacing: 0.5px;
+        }
+
+        /* DAFTAR MENU */
+        .menu-list {
+            display: flex;
+            flex-direction: column;
+            gap: 12px; margin: 0 auto 22px;
+
+        }
+
+        /* TOMBOL */
+        .menu-item {
+            display: flex;
+
+            align-items: center;
+
+            justify-content: flex-start;
+
+            width: 100%;
+
+            background: #FFB1B1;
+
+            color: white;
+
+            text-decoration: none;
+
+            padding: 17px 20px;
+
+            border: 1px solid #aab6c6;
+
+            border-radius: 10px;
+
+            font-size: 15px;
+
+            font-weight: bold;
+
+            transition: 0.2s;
+        }
+
+        .menu-item:hover {
+            background: #FFB1B1;
+
+            border-color: #8eabc9;
+        }
+
+        .menu-item span {
+            width: 30px;
+
+            margin-right: 10px;
+
+            font-size: 19px;
+
+            text-align: center;
+        }
+
+        /* KONTAK */
+        .social-title {
+            text-align: center;
+
+            font-size: 18px;
+
+            margin-top: 35px;
+
+            margin-bottom: 15px;
+        }
+
+        /* FOOTER */
+        footer {
+            text-align: center;
+
+            margin-top: 30px;
+
+            padding-top: 18px;
+
+            border-top: 1px solid #587396;
+
+            color: #ffffff;
+
+            font-size: 12px;
+
+            line-height: 1.6;
+        }
+
+        /* HP */
+        @media (max-width: 480px) {
+
+            body {
+                padding: 20px 12px;
+            }
+
+            .container {
+                padding: 25px 20px;
+            }
+
+            .profile {
+                width: 155px;
+                height: 190px;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+        }
+.project {
+    font-size: 30px;
+    font-style: bold;
+}
